@@ -1,4 +1,4 @@
-Suppose we have:
+# Suppose we have:
 
 def hello():
     print("Hello")
