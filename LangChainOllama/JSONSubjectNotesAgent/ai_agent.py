@@ -74,3 +74,34 @@ while True:
     })
 
     print("\nAI:", response.content)
+
+
+
+
+
+
+# ------------------------------------------------------------
+# --------------------------------------------------
+# Install packages
+# Since you're already working with Ollama and LangChain:
+# --$> pip3 install langchain langchain-ollama
+# Make sure Ollama is running and you have a model:
+# --$> ollama pull llama3.2
+# You can check:
+ # --$> ollama list
+# ------------------------
+
+# Run it
+# --$> python3 ai_agent.py
+
+# Then:
+# You: What are decorators?
+
+# AI: A decorator is a function that modifies or extends
+# the behavior of another function. They are commonly used
+# for logging, authentication, timing and validation.
+
+# Try:
+# You: What is Django?
+# For Django, it should respond:
+# I don't have that information in your notes.
